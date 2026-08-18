@@ -1,0 +1,80 @@
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px 40px;
+    background-color: #FFF8DC;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling ukuran dan posisi logo di tengah */
+.logo {
+    width: 90px;
+    height: auto;
+    margin: 10px auto 20px auto;
+    display: block;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        width: 90%;
+        margin: 50px auto;
+    }
+    input[type="text"],
+    input[type="password"],
+    button[type="submit"] {
+        font-size: 16px;
+    }
+}
