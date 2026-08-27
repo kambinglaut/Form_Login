@@ -26,12 +26,15 @@
                    placeholder="Masukkan Kata Sandi" 
                    required>
 
-            <button type="submit">Login</button>
+            <!-- Mengubah tipe button dan menambahkan memicu fungsi JavaScript -->
+            <button type="button" onclick="cekLogin()">Login</button>
         </form>
 
         <p><a href="#">Lupa kata sandi anda?</a></p>
-        <!-- Link navigasi diperbarui menuju register.html -->
         <p><a href="register.html">Daftar Sekarang</a></p>
     </div>
+
+    <!-- Menghubungkan file JavaScript di akhir body -->
+    <script src="script.js"></script>
 </body>
 </html>
